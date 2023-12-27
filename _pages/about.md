@@ -4,6 +4,10 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
+# About Me
 
-Feel free to tell the world about what you love! 😍
+Hello, Wordl! This is Sumanth Yalamarty. 
+
+I am currently working on: Building the future one day at a time
+
+Welcome to my website! Hope you have a good time around here. 

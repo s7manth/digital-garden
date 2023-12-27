@@ -1,0 +1,70 @@
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: var(--color-tx-normal);
+}
+  
+label {
+    color: var(--color-tx-normal);
+    display: block;
+    padding: 0 0 0.2em 0;
+}
+  
+input:focus {
+    outline:none;
+}
+
+::-webkit-input-placeholder {
+    color:var(--color-tx-muted);
+}
+::-moz-placeholder {
+    color:var(--color-tx-muted);
+}
+::-ms-placeholder {
+    color:var(--color-tx-muted);
+}
+::placeholder {
+    color:var(--color-tx-muted);
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="password"], 
+textarea {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--color-ui-normal);
+    margin-bottom: 1.5em;
+    padding: .5em 0;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus, 
+textarea:focus {
+    border-bottom: 1px solid var(--color-action);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: var(--input-width);
+}
+input[type="submit"],
+button {
+    -webkit-appearance: none;
+    border-radius: 3px;
+    background-color: var(--color-tx-normal);
+    border:1px solid var(--color-tx-normal);
+    color: var(--color-bg-primary);
+    font-weight: 400;
+    padding: 0.5em 1em;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    border: 1px solid var(--color-action);
+    background-color: var(--color-action);
+    cursor: pointer;
+  }
+  

@@ -2,12 +2,8 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <nav>{% include nav.html %}</nav>
-    <div class="wrapper">
+    <nav class="flex align-center font-ui">{% include nav.html %}</nav>
       <main>{{ content }}</main>
       <footer>{% include footer.html %}</footer>
-    </div>
-
-    {% include link-previews.html wrapperQuerySelector="content" %}
   </body>
 </html>
