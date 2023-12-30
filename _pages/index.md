@@ -33,13 +33,19 @@ permalink: /
 <div class="doclinks">
 {% assign docs = site.ldocs %}
 {% for p in docs %}
+  {% if p.publish == true %}
   <a class="doclink plain internal-link" href="{{ site.baseurl }}{{ p.permalink }}">
     <h2 class="st sb">
       {{ p.title }}
     </h2>
   </a>
+  {% endif %}
 {% endfor %}
 </div>
+
+<p class="muted">
+Have any suggestions? Reach out <a class="internal-link underline" href="mailto:syalamarty002@gmail.com?subject=Hey, Sumanth!">here</a>!
+</p>
 
 <hr class="mn2 ms2">
 

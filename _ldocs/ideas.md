@@ -3,6 +3,7 @@ layout: page
 title: Ideas
 id: ideas
 permalink: /ideas
+publish: true
 ---
 
 # Ideas 

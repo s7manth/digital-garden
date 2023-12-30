@@ -3,6 +3,7 @@ layout: page
 title: Movie Quotes
 id: moviequotes
 permalink: /moviequotes
+publish: true
 ---
 
 # Movie Quotes 

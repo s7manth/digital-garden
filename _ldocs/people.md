@@ -3,6 +3,7 @@ layout: page
 title: People
 id: people
 permalink: /people
+publish: false
 ---
 
 # People 

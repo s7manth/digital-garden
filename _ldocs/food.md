@@ -3,6 +3,7 @@ layout: page
 title: Food
 id: food
 permalink: /food
+publish: false
 ---
 
 # Food 
@@ -14,4 +15,3 @@ Think of it this way: someone long ago decided to playfully mix a few things, pa
 
 ## Dishes 
 
-Have any suggestions? Reach out [here](mailto:syalamarty002@gmail.com?subject=Hey, Sumanth!)!

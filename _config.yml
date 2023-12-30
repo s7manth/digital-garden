@@ -20,6 +20,9 @@ embed_tweets: false
 permalink:           pretty
 relative_permalinks: false
 
+markdown: kramdown
+mathjax: true
+
 plugins:
   - jekyll-last-modified-at
 
