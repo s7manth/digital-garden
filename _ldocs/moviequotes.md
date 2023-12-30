@@ -12,4 +12,3 @@ publish: true
 
 > "You don't get to commit the sin, and ask all of us to feel sorry for you for the consequences" -- Emily Blunt playing Kitty in *Oppenheimer (2023)*
 
-
