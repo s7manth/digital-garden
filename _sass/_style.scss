@@ -63,6 +63,10 @@ footer {
   padding-top: 1em;
 }
 
+code {
+  font-family: var(--font-mono);
+}
+
 iframe,
 video {
   border-radius: var(--border-radius);
@@ -97,7 +101,7 @@ blockquote {
 .bb { border-bottom: 1px solid var(--color-ui-normal);}
 .bl { border-left: 1px solid var(--color-ui-normal);}
 
-.ra { 
+.ra {
   border-radius: var(--border-radius);
   overflow: hidden;
 }
@@ -125,9 +129,9 @@ content {
     // Use capital Min() otherwise Sass throws errors
     // See https://github.com/sass/sass/issues/2849
     padding: 1.5em 0;
-    max-width: Min(100vw,var(--wrap-wide));
-    width: Min(100vw,var(--wrap-wide));
-    margin-left: calc((Min(100vw,var(--wrap-wide)) - 100%)/-2);
+    max-width: Min(100vw, var(--wrap-wide));
+    width: Min(100vw, var(--wrap-wide));
+    margin-left: calc((Min(100vw, var(--wrap-wide)) - 100%) / -2);
   }
 }
 
@@ -144,6 +148,10 @@ figcaption {
   a {
     color: var(--color-tx-muted);
   }
+}
+
+strong {
+  font-weight: 500;
 }
 
 .fr {
@@ -164,6 +172,10 @@ flex, .flex {
 }
 .flex-shrink {
   flex-shrink: 1;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .grid {
@@ -225,9 +237,11 @@ content hr {
     color: var(--color-tx-muted);
   }
 }
+
 .faint {
   color: var(--color-tx-faint);
 }
+
 .action {
   color: var(--color-action);
 }

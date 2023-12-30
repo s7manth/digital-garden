@@ -1,11 +1,11 @@
 ---
 ---
 
-@import "../_sass/variables";
 @import "../_sass/normalize";
+@import "../_sass/fonts";
+@import "../_sass/variables";
 @import "../_sass/spacing";
+@import "../_sass/style";
 
 @import "../_sass/content/all";
 @import "../_sass/components/all";
-
-@import "../_sass/style";

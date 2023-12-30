@@ -18,12 +18,15 @@ input:focus {
 ::-webkit-input-placeholder {
     color:var(--color-tx-muted);
 }
+
 ::-moz-placeholder {
     color:var(--color-tx-muted);
 }
+
 ::-ms-placeholder {
     color:var(--color-tx-muted);
 }
+
 ::placeholder {
     color:var(--color-tx-muted);
 }
@@ -39,17 +42,20 @@ textarea {
     margin-bottom: 1.5em;
     padding: .5em 0;
 }
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus, 
 textarea:focus {
     border-bottom: 1px solid var(--color-action);
 }
+
 input[type="text"],
 input[type="email"],
 input[type="password"] {
     width: var(--input-width);
 }
+
 input[type="submit"],
 button {
     -webkit-appearance: none;
@@ -66,5 +72,5 @@ button:hover {
     border: 1px solid var(--color-action);
     background-color: var(--color-action);
     cursor: pointer;
-  }
+}
   

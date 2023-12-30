@@ -6,38 +6,66 @@ permalink: /
 ---
 
 <div class="wrap">
-<p class="muted font-ui">
-    Latest
+<!-- {% assign latest_note = site.notes | sort: "publish_date" | reverse | first %} -->
+<!-- <p class="mb0 muted font-ui">
+  Latest
 </p>
 <div>
-  {% assign latest_note = site.notes | sort: "last_modified_at_timestamp" | reverse | first %}
   <a class="internal-link plain" href="{{ site.baseurl }}{{ latest_note.url }}">
     <h2>{{ latest_note.title }}</h2>
-    <div class="muted small pb font-ui">
+    <div class="small muted pb">
       <time datetime="{{ latest_note.last_modified_at | date: '%Y-%m-%dT%H:%M:%S+00:00' }}">{{ latest_note.last_modified_at | date: "%B %e, %Y" }}</time>
-      <span></span>
     </div>
-    <div class="small muted">
-      {{ latest_note.content | strip_html | truncatewords: 5, "...Keep reading →" }}
+    <div class="small muted pb">
+      {{ latest_note.summary | strip_html }}
+    </div>
+    <div class="small muted underline">
+      Continue reading →
     </div>
   </a>
+</div> -->
+
+<!-- <hr class="mn2 ms2"> -->
+
+<p class="muted font-ui">
+  Living Documents
+</p>
+<div class="doclinks">
+{% assign docs = site.ldocs %}
+{% for p in docs %}
+  <a class="doclink plain internal-link" href="{{ site.baseurl }}{{ p.permalink }}">
+    <h2 class="st sb">
+      {{ p.title }}
+    </h2>
+  </a>
+{% endfor %}
 </div>
 
-<hr class="mn2 ms2" />
-<p class="muted font-ui">
-    Writing
+<hr class="mn2 ms2">
+
+<p class="muted font-ui mb0">
+  Past Musings
 </p>
-<ul class="list-plain tabular-nums">
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes %}
-    <li>
-        <a class="internal-link plain" href="{{ site.baseurl }}{{ note.url }}">
-            <flex class="align-baseline">
-                <span class="muted ppr flex-shrink small mh nowrap font-ui">{{ note.last_modified_at | date: "%Y &#183; %m" }}</span>
-                <u>{{ note.title }}</u>
-            </flex>
-        </a>
+<div>
+{% assign recent_notes = site.notes | sort: "publish_date" | reverse %}
+<ul class="list-plain tabular-nums pt0">
+{% for note in recent_notes %}
+  <li>
+    <a class="internal-link plain" href="{{ site.baseurl }}{{ note.url }}">
+      <div class="flex align-baseline space-between">
+        <h2>{{ note.title }}</h2>
+        <div class="small muted ppl flex-shrink mh nowrap font-ui">
+          <time datetime="{{ note.publish_date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}">
+            {{ note.publish_date | date: "%Y · %m" }}
+          </time>
+        </div>
+      </div>
+      <div class="small muted pb">
+        {{ note.summary | strip_html }}
+      </div>
+    </a>
     </li>
-  {% endfor %}
+{% endfor %}
 </ul>
+</div>
 </div>

@@ -1,36 +1,40 @@
 ul > li {
     list-style: disc;
-  }
-  ol, ul {
-      padding: 0.5rem 0 1rem 1em;
-      margin: 0 0 0 0.5em;
-  }
-  ol > li,
-  ul > li {
+}
+
+ol, ul {
+    padding: 0.5rem 0 1rem 1em;
+    margin: 0 0 0 0.5em;
+}
+
+ol > li,
+ul > li {
     padding: 0.15rem 0;
     &::marker {
-      color: var(--color-tx-faint);
+        color: var(--color-tx-faint);
     }
-  }
-  ul > li {
+}
+
+ul > li {
     &::marker {
-      font-size: 92%;
+        font-size: 92%;
     }
-  }
+}
   
-  @media (min-width:$media-phone) {
+@media (min-width:$media-phone) {
     ul.list-plain  {
-      padding-inline-start: 0;
-      margin-left: 0;
-      > li {
-        list-style: none;
-      }
+        padding-inline-start: 0;
+        margin-left: 0;
+        > li {
+            list-style: none;
+        }
     }
-  }
+}
   
-  @media (max-width:$media-phone) {
+@media (max-width:$media-phone) {
     ol > li,
     ul > li {
-      padding: 0.25rem 0;
+        padding: 0.25rem 0;
     }
-  }
+}
+

@@ -2,33 +2,38 @@ img {
     max-width: 100%;
     display: block;
     border-radius: var(--image-radius);
-  }
-  body:not(.theme-dark) .multiply {
+}
+
+body:not(.theme-dark) .multiply {
     mix-blend-mode: multiply;
-  }
-  .desaturate {
+}
+
+.desaturate {
     filter: grayscale(100%);
-  }
-  .theme-dark .invert {
+}
+
+.theme-dark .invert {
     filter: invert(1);
-  }
-  .theme-dark .invert.multiply {
+}
+
+.theme-dark .invert.multiply {
     mix-blend-mode: screen;
-  }
-  .hover-color {
+}
+
+.hover-color {
     filter: grayscale(100%);
     transition: filter 0.2s ease-in-out;
     &:hover {
-      filter: grayscale(0%);
-      transition: filter 0.2s ease-in-out;
+        filter: grayscale(0%);
+        transition: filter 0.2s ease-in-out;
     }
-  }
+}
   
-  img.outline {
+img.outline {
     border: 1px solid var(--color-ui-normal);
-  }
-  
-  .aspect-square {
+}
+
+.aspect-square {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-  }
+}

@@ -6,6 +6,7 @@ table {
     border-spacing:0;
     font-size: 90%;
 }
+
 tr {
     border-bottom: 1px solid var(--color-ui-normal);
 }
@@ -25,7 +26,7 @@ td:last-child {
 
 th {
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
 }
   
 .table-top td {

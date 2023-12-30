@@ -2,4 +2,12 @@
 layout: default
 ---
 
+{% if page.id != 'home' %}
+<article>
+    <content>
+        {{ content }}
+    </content>
+</article>
+{% else %}
 {{ content }}
+{% endif %}
