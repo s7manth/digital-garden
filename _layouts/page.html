@@ -5,6 +5,12 @@ layout: default
 {% if page.id != 'home' %}
 <article>
     <content>
+        <h1>{{ page.title }}</h1>
+        <div class="muted">
+            <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+                Last Modified on {{ page.last_modified_at | date: "%B %-d, %Y" }}
+            </time>
+        </div>
         {{ content }}
     </content>
 </article>

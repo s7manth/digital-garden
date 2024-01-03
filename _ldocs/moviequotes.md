@@ -6,8 +6,6 @@ permalink: /moviequotes
 publish: true
 ---
 
-# Movie Quotes 
-
 Some of the absolute best! 
 
 > "Whatever doesn't kill you, simply makes you a stranger" -- Heath Ledger playing The Joker in *The Dark Knight (2008)*

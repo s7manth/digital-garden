@@ -6,7 +6,7 @@ layout: default
     <content>
       <h1>{{ page.title }}</h1>
       <div class="muted ms2 bb ps2">
-      <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+      <time datetime="{{ page.publish_date | date_to_xmlschema }}">
         {% if page.type != 'pages' %}
         Published on {{ page.publish_date | date: "%B %-d, %Y" }}
         {% endif %}
