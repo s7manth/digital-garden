@@ -44,7 +44,9 @@ permalink: /
 </div>
 
 <p class="muted">
-Have any suggestions? Reach out <a class="internal-link underline" href="mailto:syalamarty002@gmail.com?subject=Hey, Sumanth!">here</a>!
+Have any suggestions?
+<br>
+Shoot me an email at <a class="internal-link underline" href="mailto:syalamarty002@gmail.com?subject=Hey, Sumanth!">syalamarty002@gmail.com</a>!
 </p>
 
 <hr class="mn2 ms2">
