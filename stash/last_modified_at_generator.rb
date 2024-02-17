@@ -11,7 +11,7 @@ module Recents
       items = site.collections['notes'].docs
       items.each do |page|
         timestamp = Jekyll::LastModifiedAt::Determinator.new(site.source, page.path, '%FT%T%:z').to_s
-        page.data['last_modified_at_timestamp'] = timestamp
+        page.data['last_modified_at'] = timestamp
       end
     end
   end
