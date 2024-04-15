@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Movie Quotes
-id: moviequotes
-permalink: /moviequotes
+title: Quotes
+id: quotes
+permalink: /quotes
 publish: true
 ---
 
