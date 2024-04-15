@@ -43,10 +43,10 @@ permalink: /
 {% endfor %}
 </div>
 
-<p class="muted">
+<p class="muted small">
 Have any suggestions?
 <br>
-Shoot me an email at <a class="internal-link underline" href="mailto:syalamarty002@gmail.com?subject=Hey, Sumanth!">syalamarty002@gmail.com</a>!
+Shoot me an email <a class="internal-link underline" href="mailto:syalamarty002@gmail.com?subject=Hey, Sumanth!">here</a>!
 </p>
 
 <hr class="mn2 ms2">
