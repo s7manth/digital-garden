@@ -34,6 +34,7 @@ The following is a list of things I would recommend in different segments. The l
 - Donnie Darko
 - Silence of the Lambs
 - The Holdovers
+- The Usual Suspects
 
 ## TV Shows
 - Breaking Bad
@@ -66,3 +67,8 @@ The following is a list of things I would recommend in different segments. The l
 - The Internet Said So
 - Cred Curious
 - Sparx by Mukesh Bansal
+- No Priors 
+- The Network State Podcast 
+- My Dad Wrote a Porno 
+- Hardcore History by Dan Carlin 
+- Soft Skills
