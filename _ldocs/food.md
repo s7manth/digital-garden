@@ -8,7 +8,7 @@ publish: true
 
 I love food. All food. Any food.
 
-Think of it this way: someone long ago decided to playfully mix a few things, partly to satisfy their hunger, partly to satisfy their curiosity. The result of this experiment, once successful, evolved across generations and magincally lands on our plates. Imagine the joy back then on the success; imagine the joy now that you get to taste it!
+Think of it this way: someone long ago decided to playfully mix a few things, partly to satisfy their hunger, partly to satisfy their curiosity. The result of this experiment, once successful, evolved across generations and magically landed on our plates. Imagine the joy back then on the success; imagine the joy now that you get to taste it!
 
 ## Dishes
 - Shami Kabab
@@ -34,3 +34,7 @@ Think of it this way: someone long ago decided to playfully mix a few things, pa
 - Malai Sandwich
 - Aloo Posto
 - Tres Leches
+- Tiramisu
+- Sushi with Mentai Mayo
+- Okinawa Soki Don
+- Pulled Pork Quesadilla

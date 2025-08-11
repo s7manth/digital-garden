@@ -9,6 +9,7 @@ publish: true
 The following is a list of things I would recommend in different segments. The list might not be exhaustive at all with respect to the things I have consumed, but I like the idea of catalogging them gradually.
 
 ## Movies
+
 - The Imitation Game
 - The Dark Knight
 - Inception
@@ -34,8 +35,11 @@ The following is a list of things I would recommend in different segments. The l
 - Donnie Darko
 - Silence of the Lambs
 - The Holdovers
+- The Usual Suspects
+- Ministry of Ungentlemanly Warfare
 
 ## TV Shows
+
 - Breaking Bad
 - Severance
 - Peaky Blinders
@@ -56,6 +60,7 @@ The following is a list of things I would recommend in different segments. The l
 - Succession
 
 ## Podcasts
+
 - Lex Fridman
 - WTF is? by Nikhil Kamath
 - Andrew Huberman
@@ -66,3 +71,15 @@ The following is a list of things I would recommend in different segments. The l
 - The Internet Said So
 - Cred Curious
 - Sparx by Mukesh Bansal
+- No Priors
+- The Network State Podcast
+- My Dad Wrote a Porno
+- Hardcore History by Dan Carlin
+- Soft Skills
+
+## Books
+
+- Zero to One: Notes about Startups
+- The Almanack of Naval Ravikant
+- Siddhartha
+- A Gentleman from Peru
