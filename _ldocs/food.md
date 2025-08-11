@@ -34,7 +34,7 @@ Think of it this way: someone long ago decided to playfully mix a few things, pa
 - Malai Sandwich
 - Aloo Posto
 - Tres Leches
-- Tiramisu 
-- Sushi with Mentai Mayo 
-- Okinawa Soki Don 
+- Tiramisu
+- Sushi with Mentai Mayo
+- Okinawa Soki Don
 - Pulled Pork Quesadilla

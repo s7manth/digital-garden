@@ -1,10 +1,10 @@
 ---
-title: A revisit to my college essay :) 
+title: A revisit to my college essay :)
 summary: According to me, if you are not able to laugh at your younger self, you haven’t really grown!
 publish_date: 2022-06-23
 ---
 
-*(Note: This essay was an attempt to one of the the Coalition prompts. Fun fact: It got me into several colleges. But more importantly, I like to look at it as a milestone that brings to light what the early day Sumanth used to be. Enjoy reading it!)*
+**(Note: This essay was an attempt to one of the the Coalition prompts. Fun fact: It got me into several colleges. But more importantly, I like to look at it as a milestone that brings to light what the early day Sumanth used to be. Enjoy reading it!)**
 
 “You need guidance, someone to show you the correct path”, my dad suggested me to join a coaching class. Even before I could respond, he was backed by mom. Clearly, a classic Indian open and shut argument. Thereafter, the afternoons in my locality featured me running with a sandwich to catch the bus for a 30 minute-journey.
 
